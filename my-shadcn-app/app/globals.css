@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 225 6% 13%;
+    --foreground: 210 20% 98%;
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20% 65%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+    --ring: 216 34% 17%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom styles for Jupiter Terminal */
+#integrated-terminal {
+  background-color: hsl(224 71% 4% / 0.8);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+#integrated-terminal .ant-select-selector,
+#integrated-terminal .ant-input,
+#integrated-terminal .ant-btn {
+  background-color: hsl(222.2 84% 4.9%);
+  border-color: hsl(216 34% 17%);
+  color: hsl(210 40% 98%);
+}
+
+#integrated-terminal .ant-select-arrow,
+#integrated-terminal .ant-input-suffix {
+  color: hsl(215.4 16.3% 56.9%);
+}
+
+#integrated-terminal .ant-btn:hover {
+  background-color: hsl(217 33% 17%);
+  border-color: hsl(215 20.2% 65.1%);
+}
+
+#integrated-terminal .ant-typography {
+  color: hsl(210 40% 98%);
+}

@@ -1,0 +1,148 @@
+[infinity]
+enabled = true
+
+[orca]
+enabled = true
+mints = [
+    
+    "EnmpsuDayDDA8N71VQXcZPhCzfMr1yt4SW4ivSSewn5C",
+    "So11111111111111111111111111111111111111112",  # SOL
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", # USDC
+    "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn", # JitoSOL
+    "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB", # USDT
+    "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",  # JUP
+    "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm", # INF
+    "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4", # JLP
+"BQpGv6LVWG1JRm1NdjerNSFdChMdAULJr3x9t2Swpump"
+]
+take_all_mints = false
+add_mango_tokens = true
+
+[cropper]
+enabled = true
+mints = [
+    "So11111111111111111111111111111111111111112",  # SOL
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", # USDC
+    "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB", # USDT
+]
+take_all_mints = true
+add_mango_tokens = true
+
+[saber]
+enabled = true
+mints = [
+    "So11111111111111111111111111111111111111112",  # SOL
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", # USDC
+    "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB", # USDT
+]
+take_all_mints = true
+add_mango_tokens = true
+
+[openbook_v2]
+enabled = false
+mints = [
+    "So11111111111111111111111111111111111111112",  # SOL
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", # USDC
+    "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB", # USDT
+]
+take_all_mints = true
+add_mango_tokens = true
+
+[raydium_cp]
+enabled = true
+mints = [
+    "EnmpsuDayDDA8N71VQXcZPhCzfMr1yt4SW4ivSSewn5C",
+    "So11111111111111111111111111111111111111112",  # SOL
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", # USDC
+    "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn", # JitoSOL
+    "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB", # USDT
+    "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",  # JUP
+    "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm", # INF
+    "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4", # JLP
+    "BQpGv6LVWG1JRm1NdjerNSFdChMdAULJr3x9t2Swpump"
+]
+take_all_mints = true
+add_mango_tokens = false
+
+[gobbler]
+enabled = true
+mints = [
+    "EnmpsuDayDDA8N71VQXcZPhCzfMr1yt4SW4ivSSewn5C",
+    "So11111111111111111111111111111111111111112",  # SOL
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", # USDC
+    "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn", # JitoSOL
+    "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB", # USDT
+    "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",  # JUP
+    "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm", # INF
+    "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4", # JLP
+    "BQpGv6LVWG1JRm1NdjerNSFdChMdAULJr3x9t2Swpump"
+    ]
+take_all_mints = true
+add_mango_tokens = true
+
+[raydium]
+enabled = false
+mints = [
+    "So11111111111111111111111111111111111111112",  # SOL
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", # USDC
+    "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn", # JitoSOL
+    "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB", # USDT
+    "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",  # JUP
+    "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm", # INF
+    "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4", # JLP
+
+        "BQpGv6LVWG1JRm1NdjerNSFdChMdAULJr3x9t2Swpump",
+
+    "EnmpsuDayDDA8N71VQXcZPhCzfMr1yt4SW4ivSSewn5C"
+]
+take_all_mints = false
+add_mango_tokens = false
+
+[routing]
+path_cache_validity_ms = 30000
+path_warming_interval_secs = 15
+path_warming_for_mints = [
+    "So11111111111111111111111111111111111111112",
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "BQpGv6LVWG1JRm1NdjerNSFdChMdAULJr3x9t2Swpump",
+
+    "EnmpsuDayDDA8N71VQXcZPhCzfMr1yt4SW4ivSSewn5C"
+]
+path_warming_mode = "All"
+lookup_tables = ["87TgskchTNEv1uXkGQk1U4zt65tjqbfGAZWNMGAcRRPx"]
+
+[server]
+address = "127.0.0.1:8888"
+
+[metrics]
+output_http = true
+prometheus_address = "0.0.0.0:9091"
+output_stdout = true
+
+[[sources]]
+dedup_queue_size = 50000
+rpc_http_url = "http://god.ligmanode.com:8899"
+
+[[sources.grpc_sources]]
+name = "accountsdb-client"
+connection_string = "https://grpc.ligmanode.com"
+token = ""
+retry_connection_sleep_secs = 30
+
+[price_feed]
+birdeye_token = "76e4f97ddfa74b42b3e757721f231279"
+refresh_interval_secs = 1800 # every 30 min
+
+
+[hot_mints]
+always_hot_mints = [
+    "So11111111111111111111111111111111111111112",  # SOL
+    "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", # USDC
+        "BQpGv6LVWG1JRm1NdjerNSFdChMdAULJr3x9t2Swpump",
+
+    "EnmpsuDayDDA8N71VQXcZPhCzfMr1yt4SW4ivSSewn5C"
+]
+keep_latest_count = 50
+
+
